@@ -1,0 +1,32 @@
+# This is also a gitignore file snippet, these are the 
+# files and folders that I avoid the most
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+env/
+.env/
+
+# DotEnv configuration
+.env
+
+# VS Code
+.vscode/
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# Mac OS-specific storage files
+.DS_Store
+
+*.HEIC
+*.png
+*.xlsx
+*.pdf
+*.docx
+*.csv
+
+python-sql-snippets.py

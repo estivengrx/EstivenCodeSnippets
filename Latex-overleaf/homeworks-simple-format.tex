@@ -1,0 +1,80 @@
+\documentclass[letterpaper, 7pt]{article}
+
+% ----------------------------
+% Paquetes
+% ----------------------------
+\usepackage{geometry}
+\geometry{
+  left=1cm,
+  right=1cm,
+  top=1.5cm,
+  bottom=0.8cm,
+  headheight=12pt
+}
+
+\usepackage[spanish]{babel} \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{geometry, graphicx, amsmath, amssymb, hyperref, fancyhdr, parskip, caption, xcolor, wrapfig, float, titlesec, setspace, microtype}
+
+\usepackage[backend=biber,style=apa]{biblatex}
+\addbibresource{references.bib}
+
+% ----------------------------
+% Formato del documento
+% ----------------------------
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{0.8em}
+\setstretch{1} % interlineado compacto
+
+\hypersetup{
+    colorlinks = true,
+    linkcolor = blue,
+    citecolor = red,
+    urlcolor  = blue
+}
+
+% ----------------------------
+% Encabezado y pie de página
+% ----------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\scriptsize Examen 2 - Mecánica Clásica}
+\rhead{\scriptsize Página \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ----------------------------
+% Formato de títulos
+% ----------------------------
+\titleformat{\section}
+  {\normalsize\bfseries}{\thesection.}{0.4em}{}
+
+\titleformat{\subsection}
+  {\small\bfseries}{\thesubsection.}{0.4em}{}
+
+\titlespacing*{\section}{0pt}{0.8em}{0.3em}
+\titlespacing*{\subsection}{0pt}{0.6em}{0.2em}
+
+% ----------------------------
+% Portada
+% ----------------------------
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    % ---- Logo arriba ----
+    \includegraphics[width=0.25\textwidth]{figures/Logo_UdeA.png}\\[0.8cm]
+
+    % ---- Título principal ----
+    {\huge\bfseries Examen 3}\\[0.3cm]
+    
+    {\Large Mecánica Clásica – CNF-330 [0302135]}\\[1cm]
+
+    {\normalsize Instituto de Física, Facultad de Ciencias Exactas}\\
+    {\normalsize Universidad de Antioquia, Medellín, Colombia}\\[1.8cm]
+
+    {\normalsize \textbf{Estiven Castrillon Alzate, C.C. 1040570656, \href{mailto:estiven.castrillon2@udea.edu.co}{\texttt{estiven.castrillon2@udea.edu.co}}}}\\
+    {\normalsize \textbf{Ana María Hurtado Roldán, C.C. 1022143938, \href{mailto: ana.hurtador@udea.edu.co}{\texttt{ana.hurtador@udea.edu.co}}}}\\
+    {\normalsize \textbf{Fecha:} \today}\\[2cm]
+\end{titlepage}
+
+\end{document}

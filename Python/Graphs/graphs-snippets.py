@@ -17,3 +17,7 @@ plt.ylabel('Y-axis')
 plt.show()
 # To see further of this library, check the documentation: https://github.com/garrettj403/SciencePlots
 
+
+# __________________ SEPARATION BETWEEN CODE SNIPPETS __________________
+
+

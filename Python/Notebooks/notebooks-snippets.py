@@ -27,4 +27,24 @@
 # __________________ SEPARATION BETWEEN CODE SNIPPETS __________________
 
 
+# This is how to call a python module from another folder inside a jupyter notebook, 
+# that is following this structure:
+# project/
+# ├── src/
+# |   ├── python/
+# │     ├── main.py
+# ├── tests/
+# │   ├── module.py
+# In this case, you can import the main.py in module.py like this:
+import sys
+import os
 
+# General path for the project
+project_root = os.path.abspath(os.path.join(os.getcwd(), "../.."))
+print("Project root:", project_root)
+
+sys.path.append(project_root)
+
+from src.python import main
+
+# __________________ SEPARATION BETWEEN CODE SNIPPETS __________________

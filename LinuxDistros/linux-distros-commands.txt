@@ -1,0 +1,6 @@
+# Step by step to create shortcuts in the Linux terminal
+
+1. At /home, update the .bashrc file: nano ~/.bashrc
+2. Add to the end: alias {COMMAND_NAME}='{COMMAND}', then ctrl+O, enter, ctrl+X
+3. Upload the changes: source ~/.bashrc
+Now it should be working.
